@@ -1,0 +1,13 @@
+{
+  "name": "TemperatureConverter",
+  "version": "1.0.0",
+  "description": "Convert between Fahrenheit, Celsius and Kelvin",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Ruben",
+  "devDependencies": {
+    "electron": "^1.8.4"
+  }
+}
