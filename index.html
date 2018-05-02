@@ -4,7 +4,6 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-
     <link rel="stylesheet" href="bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css">
     <script src="renderer.js" type="text/javascript"></script>
 </head>
@@ -20,8 +19,7 @@
                         </div>
                         <div class="col-7">
                             <select class="custom-select" id="optType">
-                                <option selected>select</option>
-                                <option value="fahrenheit">Fahrenheit</option>
+                                <option value="fahrenheit" selected>Fahrenheit</option>
                                 <option value="celsius">Celsius</option>
                                 <option value="kelvin">Kelvin</option>
                             </select>
@@ -31,12 +29,12 @@
             </div>
         </div>
         <div class="row">
-            <button type="button" onClick="ConvertTemperature();"class="col-10 offset-1 btn btn-primary" id="btnConvert">Convert</button>
+            <button type="button" onClick="ConvertTemperature();" class="col-10 offset-1 btn btn-primary" id="btnConvert">Convert</button>
         </div>
         <br>
         <div class="row">
             <div class="col-12">
-                <ul class="list-group">
+                <ul class="list-group" id="OutputList">
                     <li class="list-group-item">Fahrenheit:</li>
                     <li class="list-group-item">Celsius:</li>
                     <li class="list-group-item">Kelvin:</li>
