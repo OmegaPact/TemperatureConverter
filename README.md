@@ -1,3 +1,3 @@
 # TemperatureConverter
 convert between fahrenheit, celsius, and kelvin
-![Screenshot](./Screenshot.png)
+![Screenshot](screenshot.png)
